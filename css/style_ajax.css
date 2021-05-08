@@ -1,0 +1,140 @@
+body {
+    background: #001114;
+    background-attachment: fixed;
+}
+
+.inputCep {
+    border-radius: 5px 0 0 5px;
+    padding: 1rem;
+    width: 50%;
+    font-size: 1.2rem;
+    outline: 0;
+}
+
+.btnBuscar {
+    height: 57px;
+    font-size: 1.2rem;
+    background-color: #4CAF50;
+    margin-top: 1px;
+    margin-left: -4px;
+    color: white;
+    border: none!important;
+    border-radius: 0 5px 5px 0;
+}
+
+.row {
+    margin-top: 5rem;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+
+.containerCard {
+    width: 100%;
+    max-width: 80%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.form-inputCep {
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    position: relative;
+    top: 2rem;
+}
+
+.cidadeEstado {
+    font-weight: bolder;
+}
+
+.form-inputCep * {
+    border: none;
+}
+
+.painel {
+    background-color: white;
+    max-width: 100%;
+    flex-grow: 1;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th,
+td {
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even) {
+    background-color: #dfdddd
+}
+
+th {
+    background-color: #4CAF50;
+    color: white;
+}
+
+.previsao {
+    position: relative;
+    top: 2rem;
+}
+
+.cartaoPrevisao {
+    max-width: 35rem;
+    margin: 0 auto;
+    background-color: black;
+    text-align: center;
+    color: #fff;
+    font-size: 1.2rem;
+    display: block;
+}
+
+.temperaturaAtual {
+    font-size: 5rem;
+    font-weight: 900;
+    position: relative;
+}
+
+.caracteristicas {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 1rem;
+}
+
+.caracteristica span {
+    display: block;
+}
+
+.caracteristicaLabel {
+    font-size: 1.05rem;
+}
+
+.caracteristicaValor {
+    margin-top: .1rem;
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+@media (max-width: 576px) {
+    .caracteristicas {
+        display: block;
+    }
+    .caracteristica {
+        margin-bottom: 1.2rem;
+    }
+    .caracteristica:last-of-type {
+        margin-bottom: 0;
+    }
+}
+
+.cartaoPrevisao {
+    display: none;
+}
